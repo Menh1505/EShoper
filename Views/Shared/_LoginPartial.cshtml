@@ -1,0 +1,20 @@
+@using Microsoft.AspNetCore.Identity
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <div >
+        <span>Welcome @User.Identity?.Name</span>
+    </div>
+}
+else
+{
+    <div>
+        <a asp-area="auth" asp-page="Register">Register</a>
+        <a asp-area="auth" asp-page="Login">Login</a>
+    </div>
+}
