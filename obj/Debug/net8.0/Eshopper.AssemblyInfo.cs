@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a7762e21b7934363337d265d2902d9288c8f322")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

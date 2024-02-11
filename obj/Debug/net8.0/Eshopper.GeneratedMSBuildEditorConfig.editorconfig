@@ -17,103 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Eshopper
 build_property.RootNamespace = Eshopper
-build_property.ProjectDir = D:\DEV\source\ASP\Eshopper\
+build_property.ProjectDir = D:\DEV\source\ASP\EShoper\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DEV\source\ASP\Eshopper
+build_property.MSBuildProjectDirectory = D:\DEV\source\ASP\EShoper
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Categories/Create.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Categories/Delete.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Categories/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Categories/Details.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Categories/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Categories/Edit.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Categories/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Categories/Index.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Categories/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Home/Index.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Home/Privacy.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Products/Create.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Products/Delete.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Products/Details.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Products/Edit.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Products/Index.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/Components/Imagebar/Index.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/Components/Imagebar/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSW1hZ2ViYXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/Components/JustArrived/Default.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/Components/JustArrived/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcSnVzdEFycml2ZWRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/Components/Navbar/Default.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/Components/Navbar/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2YmFyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/Components/Trandy/Default.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/Components/Trandy/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVHJhbmR5XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/Error.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/_LoginPartial.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/_Product.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/_Product.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/_ViewImports.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/_ViewStart.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DEV/source/ASP/Eshopper/Views/Shared/_Layout.cshtml]
+[D:/DEV/source/ASP/EShoper/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-rk8p0z1cju
