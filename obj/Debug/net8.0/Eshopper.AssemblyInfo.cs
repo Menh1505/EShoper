@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bebecc4182ae9b11c2cf4d9b86e298f97d9a470d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Eshopper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
