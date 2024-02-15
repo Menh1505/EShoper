@@ -1,16 +1,19 @@
+using System.Configuration;
 using Eshopper.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
+
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Services.AddDbContext<EShopper>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("EShopper") ?? throw new InvalidOperationException("Connection string 'EShopper' not found.")));
-
-// Add services to the container.
-builder.Services.AddRazorPages();
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
+//------------------- Add authenticate services-------------------------
+builder.Services.AddRazorPages();
 builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
@@ -40,6 +43,15 @@ builder.Services.Configure<IdentityOptions>(options => {
     options.SignIn.RequireConfirmedEmail = true;            // Cấu hình xác thực địa chỉ email (email phải tồn tại)
     options.SignIn.RequireConfirmedPhoneNumber = false;     // Xác thực số điện thoại
 });
+
+//--------- Add send mail service -----------------
+builder.Services.AddOptions();
+var mailsetting = builder.Configuration.GetSection("MailSettings");
+builder.Services.Configure<MailSettings>(mailsetting);
+builder.Services.AddSingleton<IEmailSender, SendMailService>();
+//-------------------------------------------------
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -52,7 +64,7 @@ if (!app.Environment.IsDevelopment())
 app.MapRazorPages();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();
 app.UseRouting();
 
 app.UseAuthorization();

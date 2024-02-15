@@ -616,3 +616,6 @@ D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Em
 D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\DEV\source\ASP\EShoper\obj\Debug\net8.0\Eshopper.MvcApplicationPartsAssemblyInfo.cs
+D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\MailKit.dll
+D:\DEV\source\ASP\EShoper\bin\Debug\net8.0\MimeKit.dll

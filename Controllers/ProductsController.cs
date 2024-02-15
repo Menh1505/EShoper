@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Eshopper.Data;
 using Eshopper.Models;
+using Eshopper.Models.ViewModels;
 
 namespace Eshopper.Controllers
 {
@@ -18,12 +19,27 @@ namespace Eshopper.Controllers
         {
             _context = context;
         }
-
+        public int PageSize = 9;
         // GET: Products
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int productPage = 1)
         {
-            var appDbContext = _context.Products.Include(p => p.category).Include(p => p.color).Include(p => p.size);
-            return View(await appDbContext.ToListAsync());
+            return View(
+                new ProductListViewModel
+                {
+                    Products = _context.Products.Skip((productPage - 1) * PageSize).Take(PageSize),
+                    pagingInfo = new PagingInfo
+                    {
+                        ItemsPerPage = PageSize,
+                        CurrentPage = productPage,
+                        TotalItems = _context.Products.Count()
+                    }
+                }
+            );
+        }
+        public async Task<IActionResult> ProductsByCat(int categoryId)
+        {
+            var appDbContext = _context.Products.Where(p => p.CategoryId == categoryId).Include(p => p.category).Include(p => p.color).Include(p => p.size);
+            return View("Index", await appDbContext.ToListAsync());
         }
 
         // GET: Products/Details/5
